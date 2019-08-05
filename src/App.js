@@ -6,6 +6,7 @@ import Skils from './Component/Skils';
 import Projects from './Component/Projects';
 import Contact from './Component/Contact';
 import ContactMe from './Component/ContactMe';
+import About from './Component/About';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Cover/>
       <Projects/>
       <Skils/>
+      <About/>
       {/* <ContactMe/> */}
       {/* <Contact/> */}
     </div>

@@ -183,6 +183,20 @@ color: white }
   }
 } */
 
+.about-me {
+  background-color: #282c34;
+  color: white;
+}
+
+.about-me h3,h2{
+  font-style: inherit;
+  margin-top: 40px;
+  width: 280px;
+  height: 60px;
+  font-size: 30px;
+  font-family: inherit;
+  font-weight: bolder;
+}
 
 
 
