@@ -7,6 +7,7 @@ import Projects from './Component/Projects';
 import Contact from './Component/Contact';
 import ContactMe from './Component/ContactMe';
 import About from './Component/About';
+import InputWithIcon from './Component/Contactus';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Cover/>
       <Projects/>
       <Skils/>
-      <About/>
+      <InputWithIcon/>
+      {/* <About/> */}
       {/* <ContactMe/> */}
       {/* <Contact/> */}
     </div>

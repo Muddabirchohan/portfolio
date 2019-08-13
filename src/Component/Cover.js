@@ -33,9 +33,9 @@ getDescription(){
 
 <div className="cover-text">  
     <h3> Hi! This is MERN STACK Developer Muddabir Chohan </h3>
-    
-        {!this.state.show && <button type="button" class="btn btn-primary" onClick={this.getDescription.bind(this)}> View More</button> }
-<p class="w3-animate-fading"> {this.state.show && this.state.description} </p>
+    <button type="button" class="btn btn-primary"> View More</button> 
+        {/* {!this.state.show && <button type="button" class="btn btn-primary" onClick={this.getDescription.bind(this)}> View More</button> }
+<p class="w3-animate-fading"> {this.state.show && this.state.description} </p> */}
 </div>
 
             </div>

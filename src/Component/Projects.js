@@ -7,7 +7,7 @@ class Projects extends Component {
                 <div class="container">
                 <h5> PROJECTS </h5>
   <div class="row">
-    <div class="col">
+    <div class="col col-lg-4 col-md-6 col-sm-12">
     <a href="https://muddabirchohan.github.io/htmlcss/"> 
     <div class="card div_hover">
 
@@ -20,7 +20,7 @@ class Projects extends Component {
 </div>
 
 
-    <div class="col">
+    <div class="col col-lg-4 col-md-6 col-sm-12">
     <a href="https://muddabirchohan.github.io/vanillajsItemlist/itemlist.html"> 
     <div class="card div_hover">
   <div class="card-body">
@@ -34,7 +34,7 @@ class Projects extends Component {
 
 
 </div>
-    <div class="col">
+    <div class="col col-lg-4 col-md-6 col-sm-12">
     <a href="https://muddabirchohan.github.io/vanillajsGeoCode/geocode.html"> 
     <div class="card div_hover">
 
@@ -54,13 +54,13 @@ class Projects extends Component {
 
 
   <div class="row">
-    <div class="col">
+    <div class="col col-lg-4 col-md-6 col-sm-12">
     <a href="https://muddabirchohan.github.io/htmlcss/"> 
 
     <div class="card div_hover">
 
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title"> Web Scrapper </h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
@@ -68,11 +68,11 @@ class Projects extends Component {
     </div>
     
     
-    <div class="col">
+    <div class="col col-lg-4 col-md-6 col-sm-12">
     <a href="https://muddabirchohan.github.io/vanillajsItemlist/itemlist.html"> 
     <div class="card div_hover">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Node app</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>  
@@ -81,11 +81,11 @@ class Projects extends Component {
 
 
 
-    <div class="col">
+    <div class="col col-lg-4 col-md-6 col-sm-12">
     <a href="https://muddabirchohan.github.io/vanillajsGeoCode/geocode.html"> 
     <div class="card div_hover">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Chat app</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>   

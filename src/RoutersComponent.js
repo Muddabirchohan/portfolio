@@ -1,19 +1,19 @@
 // import React, { Component } from 'react';
-// import { Switch, Route } from 'react-router-dom'
+// import {BrowserRouter,Route,Switch} from 'react-router-dom';
 // import App from './App';
+// import About from './Component/About';
 
-// class RoutersComponent extends Component {
-//     render() {
-//         return (
-//             <div>
-//                  <Switch>
-//         <Route exact path='/home' component={App}/>
-//         {/* <Route path='/roster' component={Roster}/>
-//         <Route path='/schedule' component={Schedule}/> */}
-//       </Switch>
-//             </div>
-//         );
-//     }
+// export default class RoutersComponent extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <BrowserRouter>
+//         <Switch>
+//         <Route exact={true} path="/" component={App}/>   
+//         <Route  path="/about" component={About}/>    
+//         </Switch>
+//         </BrowserRouter>
+//       </div>
+//     )
+//   }
 // }
-
-// export default RoutersComponent;
