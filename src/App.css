@@ -107,7 +107,7 @@ width: 100%;
 
 .skills h5{
   margin-top: 40px;
-  width: 280px;
+  /* width: 280px; */
   height: 60px;
   font-size: 30px;
   font-family: inherit;
@@ -133,7 +133,7 @@ width: 100%;
 
 .projects-parent h5{
   margin-top: 40px;
-  width: 280px;
+  /* width: 280px; */
   height: 60px;
   font-size: 30px;
   font-family: inherit;

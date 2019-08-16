@@ -7,7 +7,7 @@ class Projects extends Component {
                 <div class="container">
                 <h5> PROJECTS </h5>
   <div class="row">
-    <div class="col col-lg-4 col-md-6 col-sm-12">
+    <div class=" col-lg-4 col-md-4 col-sm-12">
     <a href="https://muddabirchohan.github.io/htmlcss/"> 
     <div class="card div_hover">
 
@@ -20,7 +20,7 @@ class Projects extends Component {
 </div>
 
 
-    <div class="col col-lg-4 col-md-6 col-sm-12">
+    <div class="col-lg-4 col-md-4 col-sm-12">
     <a href="https://muddabirchohan.github.io/vanillajsItemlist/itemlist.html"> 
     <div class="card div_hover">
   <div class="card-body">
@@ -34,7 +34,7 @@ class Projects extends Component {
 
 
 </div>
-    <div class="col col-lg-4 col-md-6 col-sm-12">
+    <div class="col col-lg-4 col-md-4 col-sm-12">
     <a href="https://muddabirchohan.github.io/vanillajsGeoCode/geocode.html"> 
     <div class="card div_hover">
 
@@ -54,7 +54,7 @@ class Projects extends Component {
 
 
   <div class="row">
-    <div class="col col-lg-4 col-md-6 col-sm-12">
+    <div class="col-lg-4 col-md-4 col-sm-12">
     <a href="https://muddabirchohan.github.io/htmlcss/"> 
 
     <div class="card div_hover">
@@ -68,7 +68,7 @@ class Projects extends Component {
     </div>
     
     
-    <div class="col col-lg-4 col-md-6 col-sm-12">
+    <div class=" col-lg-4 col-md-4 col-sm-12">
     <a href="https://muddabirchohan.github.io/vanillajsItemlist/itemlist.html"> 
     <div class="card div_hover">
   <div class="card-body">
@@ -81,7 +81,7 @@ class Projects extends Component {
 
 
 
-    <div class="col col-lg-4 col-md-6 col-sm-12">
+    <div class=" col-lg-4 col-md-4 col-sm-12">
     <a href="https://muddabirchohan.github.io/vanillajsGeoCode/geocode.html"> 
     <div class="card div_hover">
   <div class="card-body">

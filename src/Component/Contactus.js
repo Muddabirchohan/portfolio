@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -9,15 +9,49 @@ import Grid from '@material-ui/core/Grid';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import {Row,Col,Container} from 'react-bootstrap';
 
-const useStyles = makeStyles(theme => ({
-  margin: {
-    margin: theme.spacing(1),
-  },
-}));
+export default class InputWithIcon extends Component {
 
-export default function InputWithIcon() {
-  const classes = useStyles();
+  constructor(){
+    super();
+    this.state= {
+      name: '',
+      email: '',
+      descriprtion: '',
+      city: ''
+    }
+    this.submitForm = this.submitForm.bind(this);
+  }
+  
+submitForm(){
+  alert('hello')
+}
 
+getname(e){
+  this.setState({name: e.target.value})
+}
+
+
+getEmail(e){
+  this.setState({email: e.target.value})
+}
+
+
+
+
+getCity(e){
+  this.setState({city: e.target.value})
+}
+
+
+
+getDescription(e){
+  this.setState({descriprtion: e.target.value})
+}
+
+
+
+
+render(){
   return (
     <div className="contact">
 
@@ -25,9 +59,10 @@ export default function InputWithIcon() {
 <h5> Contact Me </h5>
   <Row  className="contact-me"> 
   
-    <Col>  <FormControl >
+    <Col>  <FormControl>
         <InputLabel htmlFor="input-with-icon-adornment">Full Name</InputLabel>
         <Input
+        onChange={this.getname}
           id="input-with-icon-adornment"
           startAdornment={
             <InputAdornment position="start">
@@ -39,16 +74,17 @@ export default function InputWithIcon() {
     </Col>
     <Col> 
     <TextField
-        className={classes.margin}
+        onChange={this.getCity}
         id="input-with-icon-textfield"
         label="city"
      />
     </Col>
   </Row>
   <Row  className="contact-me">
-  <Col>  <FormControl className={classes.margin}>
+  <Col>  <FormControl >
         <InputLabel htmlFor="input-with-icon-adornment">Email </InputLabel>
         <Input
+        onChange={this.getEmail}
           id="input-with-icon-adornment"
           startAdornment={
             <InputAdornment position="start">
@@ -60,7 +96,7 @@ export default function InputWithIcon() {
     </Col>
     <Col> 
     <TextField
-        className={classes.margin}
+        
         id="input-with-icon-textfield"
         label="Contact"
       
@@ -68,27 +104,25 @@ export default function InputWithIcon() {
     </Col>
   </Row>
 <Row> 
-  <div className="description"> 
+  {/* <div className="description"> 
   <TextField
+        onChange={this.getDescription}
         id="filled-multiline-static"
         label="Description"
         multiline
         rows="3"
         width="300px"
-        className={classes.textField}
         margin="normal"
       />
-         </div>
+         </div> */}
       </Row>
    
-      <button type="button" class="btn btn-primary"> Submit</button> 
+      <button type="btn" class="btn btn-primary" onClick={this.submitForm}> Submit</button> 
 
 </Container>
 
-
-
-     
-
     </div>
   );
+}
+
 }
