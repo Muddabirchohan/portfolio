@@ -15,21 +15,21 @@ class Skilss extends Component {
         <h5> SKILLS & TECHNOLOGIES </h5>
 
           <div class="row">
-          <div class="col col-lg-4 col-md-4 col-sm-12 first-container" >
+          <div class="col-lg-4 col-md-12 col-sm-12 first-container" >
               <h5> FRONT END </h5>
               {/* <img src={img1} height="60px" /> */}
               <p> The front end of a website (or web or mobile application) is the part a user sees and directly interacts with. The front end is built with languages like: HTML. CSS. JavaScript.</p>
               <button type="button" class="btn btn-primary" > View More</button>
 
             </div>
-            <div class="col col-lg-4 col-md-4 col-sm-12 first-container">
+            <div class="col-lg-4 col-md-12 col-sm-12 first-container">
               <h5> BACK END </h5>
               {/* <img src={img2} height="60px" /> */}
               <p> Back-End. The back-end, or the "server-side", is basically how the site works, updates and changes. This refers to everything the user can't see in the browser, like databases and servers. </p>
               <button type="button" class="btn btn-primary" > View More</button>
 
             </div>
-            <div class="col col-lg-4 col-md-4 col-sm-12 first-container">
+            <div class="col-lg-4 col-md-12 col-sm-12 first-container">
               <h5> DEPLOYEMENT </h5>
               {/* <img src={img3} height="60px" /> */}
       <p> Software deployment is all of the activities that make a software system available for use. The general deployment process consists of several interrelated </p>

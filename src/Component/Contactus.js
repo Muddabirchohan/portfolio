@@ -58,8 +58,9 @@ render(){
 <Container>
 <h5> Contact Me </h5>
   <Row  className="contact-me"> 
-  
-    <Col>  <FormControl>
+  <div class=" col-lg-6 col-md-4 col-sm-12">
+
+  <FormControl>
         <InputLabel htmlFor="input-with-icon-adornment">Full Name</InputLabel>
         <Input
         onChange={this.getname}
@@ -71,17 +72,20 @@ render(){
           }
         />
       </FormControl>
-    </Col>
-    <Col> 
+    </div>
+
+    <div class=" col-lg-6 col-md-4 col-sm-12">
     <TextField
         onChange={this.getCity}
         id="input-with-icon-textfield"
         label="city"
      />
-    </Col>
+    </div>
   </Row>
   <Row  className="contact-me">
-  <Col>  <FormControl >
+  <div class=" col-lg-6 col-md-4 col-sm-12">
+
+   <FormControl >
         <InputLabel htmlFor="input-with-icon-adornment">Email </InputLabel>
         <Input
         onChange={this.getEmail}
@@ -93,18 +97,18 @@ render(){
           }
         />
       </FormControl>
-    </Col>
-    <Col> 
+    </div>
+    <div class=" col-lg-6 col-md-4 col-sm-12">
     <TextField
         
         id="input-with-icon-textfield"
         label="Contact"
       
       />
-    </Col>
+    </div>
   </Row>
-<Row> 
-  {/* <div className="description"> 
+{/* <Row> 
+  <div className="description"> 
   <TextField
         onChange={this.getDescription}
         id="filled-multiline-static"
@@ -114,8 +118,8 @@ render(){
         width="300px"
         margin="normal"
       />
-         </div> */}
-      </Row>
+         </div>
+      </Row> */}
    
       <button type="btn" class="btn btn-primary" onClick={this.submitForm}> Submit</button> 
 

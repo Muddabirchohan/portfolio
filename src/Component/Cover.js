@@ -25,9 +25,13 @@ getDescription(){
 
     render() {
         return (
-            <div>
-                
-<div className="bg">
+            <div className="bg">
+                     <div class="container">
+
+          <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12" >
+
+
 <Nav/>
 </div>
 
@@ -38,7 +42,9 @@ getDescription(){
 <p class="w3-animate-fading"> {this.state.show && this.state.description} </p> */}
 </div>
 
-            </div>
+</div>
+</div>
+</div>
         );
     }
 }

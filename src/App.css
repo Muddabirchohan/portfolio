@@ -228,6 +228,7 @@ color: white }
 .contact{
   background-color: #dedede;
   color: black;
+
 }
 
 
@@ -285,6 +286,13 @@ left: 150px;
   height: 500px;
 }
 
+
+.contact{
+  background-color: #dedede;
+  color: black;
+  margin-top: 570px;
+
+}
 }
 
 
