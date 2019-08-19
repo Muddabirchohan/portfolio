@@ -21,7 +21,7 @@ class Nav extends Component {
       <AnchorLink class="nav-item nav-link" href="#skills">Skills </AnchorLink>
       <AnchorLink class="nav-item nav-link" href="#projects"> Projects </AnchorLink>
 
-      <a class="nav-item nav-link" href="#">Contact</a>
+      <AnchorLink  class="nav-item nav-link" href="#contacts">Contact</AnchorLink >
     
 
 

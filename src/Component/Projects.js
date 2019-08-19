@@ -4,8 +4,25 @@ class Projects extends Component {
     render() {
         return (
             <div className="projects-parent" id="projects">
+
+
+
+
                 <div class="container">
                 <h5> PROJECTS </h5>
+  
+    <a href="https://sbay-mrz.herokuapp.com/"> 
+
+    <div class="card div_hover">
+
+  <div class="card-body">
+    <h5 class="card-title">S-Bay</h5>
+    <p class="card-text">A software buying and selling site along with customization of software products as well as new productrequest from customers .</p>
+   </div>
+</div>
+</a>
+
+
   <div class="row">
     <div class=" col-lg-4 col-md-4 col-sm-12">
     <a href="https://muddabirchohan.github.io/htmlcss/"> 
@@ -53,7 +70,7 @@ class Projects extends Component {
 
 
 
-  <div class="row">
+  {/* <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12">
     <a href="https://muddabirchohan.github.io/htmlcss/"> 
 
@@ -93,7 +110,7 @@ class Projects extends Component {
  </div>
  
   </div>
-
+ */}
 
 
 </div>

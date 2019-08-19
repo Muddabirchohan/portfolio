@@ -257,16 +257,7 @@ color: white }
 
 
 @media (min-width:320px ) and (max-width: 767px) {
-.cover-text{
 
-width: 20px !important;
-justify-content: center;
-display: flex;
-align-items: center;
-color: white;
-height: 50px;
-left: 150px;
-}
 
 
 .cover-text h3{
@@ -296,7 +287,22 @@ left: 150px;
 }
 
 
-@media (min-width:768px ) and (max-width: 991px) {}
+@media (min-width:768px ) and (max-width: 991px) {
+  .contact{
+    background-color: #dedede;
+    color: black;
+    margin-top: 570px;
+  
+  }
+  .cover-text {
+    width: 0px !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    left: 0px;
+}
+}
 
 
 

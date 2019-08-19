@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Cover from './Component/Cover';
@@ -10,18 +10,22 @@ import About from './Component/About';
 import InputWithIcon from './Component/Contactus';
 
 
-function App() {
-  return (
-    <div className="App">
-      <Cover/>
-      <Projects/>
-      <Skils/>
-      <InputWithIcon/>
-      {/* <About/> */}
-      {/* <ContactMe/> */}
-      {/* <Contact/> */}
-    </div>
-  );
-}
+class App extends Component  {
+  
+  render(){
+    return (
+      <div className="App">
+        <Cover/>
+        <Projects/>
+        <Skils/>
+        <InputWithIcon/>
+  
+        {/* <About/> */}
+        {/* <ContactMe/> */}
+        {/* <Contact/> */}
+      </div>
+    );
+  }
+  }
 
 export default App;

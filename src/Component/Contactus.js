@@ -53,7 +53,7 @@ getDescription(e){
 
 render(){
   return (
-    <div className="contact">
+    <div className="contact" id="contacts">
 
 <Container>
 <h5> Contact Me </h5>
