@@ -8,7 +8,7 @@ import { Card, Button } from 'react-bootstrap';
 class About extends Component {
     render() {
         return (
-            <div className="about-me">
+            <div className="about-me" id="about">
 
                 <div>
                     <h2> About Me </h2>

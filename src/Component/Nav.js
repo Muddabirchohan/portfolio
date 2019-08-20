@@ -17,10 +17,9 @@ class Nav extends Component {
 
  
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">About </a>
-      <AnchorLink class="nav-item nav-link" href="#skills">Skills </AnchorLink>
       <AnchorLink class="nav-item nav-link" href="#projects"> Projects </AnchorLink>
-
+      <AnchorLink class="nav-item nav-link" href="#about">About </AnchorLink>
+      <AnchorLink class="nav-item nav-link" href="#skills">Skills </AnchorLink>
       <AnchorLink  class="nav-item nav-link" href="#contacts">Contact</AnchorLink >
     
 

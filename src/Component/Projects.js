@@ -1,4 +1,11 @@
 import React, { Component } from 'react';
+import sbay from './../assets/sbay.PNG';
+import carapp from './../assets/carapp.PNG';
+import itemlist from './../assets/itemlist.PNG';
+import geocode from './../assets/geocode.PNG';
+import sbay2 from './../assets/sbay1.PNG';
+import sbay3 from './../assets/sbay3.PNG';
+
 
 class Projects extends Component {
     render() {
@@ -15,9 +22,15 @@ class Projects extends Component {
 
     <div class="card div_hover">
 
-  <div class="card-body">
+  <div class="card-body ">
+
+  <img src={sbay2} width="300px" height="130px"/>
+  <img src={sbay} width="300px"/>
+  <img src={sbay3} width="90px"/>
+  
     <h5 class="card-title">S-Bay</h5>
-    <p class="card-text">A software buying and selling site along with customization of software products as well as new productrequest from customers .</p>
+  
+    {/* <p class="card-text">A software buying and selling site along with customization of software products as well as new productrequest from customers .</p> */}
    </div>
 </div>
 </a>
@@ -29,8 +42,9 @@ class Projects extends Component {
     <div class="card div_hover">
 
   <div class="card-body">
+  <img src={carapp} width="300px"/>
     <h5 class="card-title">Car WebApp</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
    </div>
 </div>
 </a>
@@ -41,8 +55,10 @@ class Projects extends Component {
     <a href="https://muddabirchohan.github.io/vanillajsItemlist/itemlist.html"> 
     <div class="card div_hover">
   <div class="card-body">
+  <img src={itemlist} width="300px" height="200px" />
+
     <h5 class="card-title"> Item List</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
    
   </div>
 </div>    
@@ -56,6 +72,8 @@ class Projects extends Component {
     <div class="card div_hover">
 
   <div class="card-body">
+  <img src={geocode} width="300px" height="130px" />
+
     <h5 class="card-title">Geo Code </h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>

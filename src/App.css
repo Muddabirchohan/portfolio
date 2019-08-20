@@ -92,6 +92,7 @@ body, html {
 }
 
 .skills h5{
+  
   margin-top: 40px;
   /* width: 280px; */
   height: 60px;
@@ -99,6 +100,15 @@ body, html {
   font-family: inherit;
   font-weight: bolder;
  
+}
+
+
+.skills h3{
+  height: 60px;
+  font-size: 30px;
+  font-family: inherit;
+  font-weight: bolder;
+  color: #090c15;
 }
 
 .first-container,.second-container,.third-container{
@@ -240,9 +250,9 @@ color: white }
  
 }
 
-img{
+/* img{
   border-radius: 50%;
-}
+} */
 
 
 

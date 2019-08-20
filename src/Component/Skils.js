@@ -12,7 +12,7 @@ class Skilss extends Component {
     return (
       <div className="skills" id="skills">
         <div class="container">
-        <h5> SKILLS & TECHNOLOGIES </h5>
+        <h3> SKILLS & TECHNOLOGIES </h3>
 
           <div class="row">
           <div class="col-lg-4 col-md-12 col-sm-12 first-container" >
