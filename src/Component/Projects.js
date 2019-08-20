@@ -72,10 +72,10 @@ class Projects extends Component {
     <div class="card div_hover">
 
   <div class="card-body">
-  <img src={geocode} width="300px" height="130px" />
+  <img src={geocode} width="300px" height="200px" />
 
     <h5 class="card-title">Geo Code </h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
   </div>
 </div>   
   </a>

@@ -23,6 +23,8 @@ export default class InputWithIcon extends Component {
   }
   
 submitForm(){
+  window.open('mailto:muddabir22@gmail.com?subject=subject&body=body');
+
   alert('hello')
 }
 
