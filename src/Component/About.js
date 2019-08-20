@@ -11,30 +11,19 @@ class About extends Component {
             <div className="about-me">
 
                 <div>
-                    <Nav />
-                </div>
-
-                <div>
                     <h2> About Me </h2>
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm">
+                        <div class="col-lg-6">
                             <Card >
                                 <Card.Img variant="top" src={profile} />
-                                <Card.Body>
-                                    <Card.Title> <h3> Profile </h3></Card.Title>
-                                    <Card.Text>
+                                {/* <Button style={{ backgroundColor: "#007bff" }}>Go somewhere</Button> */}
 
-                                        <p> hello this is Muddabir Chohan ,MERN Stack Developer looking forward to work as a full stack developer with React as Front end and Nodejs as a backend
-                                        There’s no need to be overly formal on your online portfolio page. This is your own space for representing yourself on the web. Let yourself feel at home, and write your About page the same way you would normally speak.</p>
-                                    </Card.Text>
-                                    <Button style={{ backgroundColor: "#007bff" }}>Go somewhere</Button>
-                                </Card.Body>
                             </Card>
                         </div>
 
-                        <div class="col-sm">
+                        <div class="col-lg-6">
                             <div className="second-para"> 
                             <p >
                                 hello this is Muddabir Chohan ,MERN Stack Developer looking forward to work as a full stack developer with React as Front end and Nodejs as a backend
@@ -45,9 +34,9 @@ class About extends Component {
                             <h3> Achievements </h3>
                             </div>
                             <div class="row">
-                                <div class="col-sm-6 col-lg-6">
+                                <div class="col-sm-12col-lg-12">
 
-                                    <Card style={{width: '250px'}}>
+                                    <Card style={{width: '100%'}}>
                                     <Card.Title> <h3> BSOM </h3></Card.Title>
                                     <Card.Text>
                                         <p>
@@ -61,7 +50,7 @@ class About extends Component {
                                 </div>
 
 
-                                <div class="col-sm-6 col-lg-6">
+                                {/* <div class="col-sm-6 col-lg-6">
 
                                 <Card style={{width: '250px'}}>
                                     <Card.Title> <h3> INTERNSHIP </h3></Card.Title>
@@ -72,7 +61,7 @@ class About extends Component {
                                     </Card.Text>
                                         
 </Card>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

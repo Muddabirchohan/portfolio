@@ -17,10 +17,11 @@ class App extends Component  {
       <div className="App">
         <Cover/>
         <Projects/>
+        <About/>
         <Skils/>
         <InputWithIcon/>
   
-        {/* <About/> */}
+       
         {/* <ContactMe/> */}
         {/* <Contact/> */}
       </div>

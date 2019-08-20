@@ -25,17 +25,19 @@ getDescription(){
 
     render() {
         return (
-            <div className="bg">
-                     <div class="container">
+           
+                     <div >
 
           <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12" >
+          <div class="col-lg-12 col-sm-12" >
 
 
+
+<div className="bg">  
+<div> 
 <Nav/>
 </div>
-
-<div className="cover-text">  
+<div className="bg-light cover-text">
     <h3> Hi! This is MERN STACK Developer Muddabir Chohan </h3>
     {/* <button type="button" class="btn btn-primary"> View More</button>  */}
         {!this.state.show && <button type="button" class="btn btn-primary" onClick={this.getDescription.bind(this)}> View More</button> }
@@ -43,8 +45,11 @@ getDescription(){
 </div>
 
 </div>
+
 </div>
 </div>
+</div>
+
         );
     }
 }
