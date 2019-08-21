@@ -43,7 +43,7 @@ class Projects extends Component {
 
   <div class="card-body">
   <img src={carapp} width="300px"/>
-    <h5 class="card-title">Car WebApp</h5>
+    <h5 class="card-title">Car App</h5>
     {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
    </div>
 </div>
