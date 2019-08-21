@@ -272,7 +272,7 @@ width: 100%;
 }
 
 .bg-light{
-  background-color: #ffffff21 !important;
+  background-color: #00000000 !important;
   color: white;
 }
 
@@ -329,11 +329,6 @@ width: 100%;
 
 .particles{
   display: none;
-}
-
-.bg-light{
-  background-color: #ffffff21 !important;
-  color: white;
 }
 
 }
