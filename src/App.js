@@ -65,15 +65,15 @@ class App extends Component {
 
   render(){
     return (
-      <div className="App">
-        <Cover id="top"/>
+      <div className="App" >
+        <Cover />
         <Projects/>
         <About/>
         <Skils/>
         <Contact/>
   
         <div className="css3-notification">
-        <AnchorLink class="nav-item nav-link" href="#projects"> 
+        <AnchorLink class="nav-item nav-link" href="#top"> 
                     <img className="topbutton" id="btn" src={top} width="50px"/>
         </AnchorLink>
                 </div>
