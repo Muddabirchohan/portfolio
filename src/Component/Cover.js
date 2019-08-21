@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './../App.css';
 import Nav from './Nav';
+import Particles from './Particles';
+
 
 class Cover extends Component {
 
@@ -33,9 +35,14 @@ getDescription(){
 
 
 
-<div className="bg">  
+<div className="bg"> 
+
 <div> 
 <Nav/>
+</div>
+<div className="particles">
+<Particles /> 
+
 </div>
 <div className="bg-light cover-text">
     <h3> Hi! This is MERN STACK Developer Muddabir Chohan </h3>
