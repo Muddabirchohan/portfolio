@@ -26,7 +26,7 @@ class Projects extends Component {
 
   <img src={sbay2} width="300px" height="130px"/>
   <img src={sbay} width="300px"/>
-  <img src={sbay3} width="90px"/>
+  {/* <img src={sbay3} width="90px"/> */}
   
     <h5 class="card-title">S-Bay</h5>
   
