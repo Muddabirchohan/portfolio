@@ -59,7 +59,8 @@ render(){
 
 <Container>
 <h5> Contact Me </h5>
-  <Row  className="contact-me"> 
+<p> Feel free to contact me through email or contact No <br/> 03062177949 </p>
+  {/* <Row  className="contact-me"> 
   <div class=" col-lg-6 col-md-4 col-sm-12">
 
   <FormControl>
@@ -108,7 +109,7 @@ render(){
       
       />
     </div>
-  </Row>
+  </Row> */}
 {/* <Row> 
   <div className="description"> 
   <TextField
@@ -123,7 +124,8 @@ render(){
          </div>
       </Row> */}
    
-      <button type="btn" class="btn btn-primary" onClick={this.submitForm}> Submit</button> 
+      <button type="btn" class="btn btn-primary" onClick={this.submitForm}> G Mail</button> 
+      
 
 </Container>
 

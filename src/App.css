@@ -167,6 +167,9 @@ color: white }
   background-color: aliceblue;
 }
 
+.contact p{
+  text-align: center;
+}
 
 /* @media (min-width:48em){
   .cover-text{
@@ -241,7 +244,7 @@ color: white }
 
 .contact h5{
   /* margin-top: 40px; */
-  width: 280px;
+  /* width: 280px; */
   height: 60px;
   font-size: 30px;
   font-family: inherit;
@@ -278,6 +281,7 @@ width: 100%;
 
 
 @media (min-width:320px ) and (max-width: 767px) {
+
 
 .bg{
   height: 300px;
@@ -316,6 +320,15 @@ width: 100%;
   margin-top: 570px;
 
 }
+
+
+.projects-parent img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
 }
 
 
@@ -342,6 +355,14 @@ width: 100%;
   top: 150px;
   left: 0px;
 }
+
+.cover-text h3{
+  font-size: 25px !important;
+  font-family: inherit;
+  width: 100px;
+  /* font-weight: 700; */
+}
+
 
 .projects-parent img{
   width: 100%;
