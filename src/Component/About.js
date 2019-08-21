@@ -8,14 +8,15 @@ import { Card, Button } from 'react-bootstrap';
 class About extends Component {
     render() {
         return (
+            <div class="container">
             <div className="about-me" id="about">
 
                 <div>
                     <h2> About Me </h2>
                 </div>
-                <div class="container">
+              
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-sm-12">
                             <Card >
                                 <Card.Img variant="top" src={profile} />
                                 {/* <Button style={{ backgroundColor: "#007bff" }}>Go somewhere</Button> */}
@@ -23,7 +24,7 @@ class About extends Component {
                             </Card>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div className="second-para"> 
                             <p >
                                 hello this is Muddabir Chohan ,MERN Stack Developer looking forward to work as a full stack developer with React as Front end and Nodejs as a backend
@@ -34,7 +35,7 @@ class About extends Component {
                             <h3> Achievements </h3>
                             </div>
                             <div class="row">
-                                <div class="col-sm-12col-lg-12">
+                                <div class="col-sm-12 col-lg-12">
 
                                     <Card style={{width: '100%'}}>
                                     <Card.Title> <h3> BSOM </h3></Card.Title>

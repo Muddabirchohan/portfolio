@@ -10,8 +10,9 @@ import img3 from './../assets/img3.jpg';
 class Skilss extends Component {
   render() {
     return (
+      <div class="container">
       <div className="skills" id="skills">
-        <div class="container">
+     
         <h3> SKILLS & TECHNOLOGIES </h3>
 
           <div class="row">
